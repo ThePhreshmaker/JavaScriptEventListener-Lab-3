@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<header>
+    <h1>Live Word & Character Counter</h1>
+    <p>By Shawn Philipps</p>
+    <p> Lab 3 for CISC 3140</p>
+    <p>Brooklyn College</p>
+</header>
+<html lang = "en">
+  <head>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Google Font-->
+    <link
+          href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+          rel = "stylesheet"
+    />
+    <!--CSS Styling-->
+    <link rel = "stylesheet" href ="style.css" />
+  </head>
+  <body>
+    <div class = "wrapper">
+      <div class = "container">
+        <textarea
+           id = "user-textarea"
+           rows="12"
+           placeholder="Start typing here..."
+           ></textarea>
+      </div>
+      <div class="count">
+        <div>
+          <h5 id = "word-count">0</h5>
+          <p>Words</p>
+        </div>
+        <div>
+          <h5 id = "char-count">0</h5>
+          <p>Characters</p>
+          <p>(Including Whitespaces)</p>
+        </div>
+      </div>
+    </div>
+    <!--JavaScript event listner code-->
+    <script src ="wordCountEListener.js"></script>
+  </body>
+</html>
