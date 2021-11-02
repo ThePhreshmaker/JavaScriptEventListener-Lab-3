@@ -2,7 +2,7 @@ let userTextArea = document.getElementById("user-textarea");
 let charCount = document.getElementById("char-count");
 let wordCount = document.getElementById("word-count");
 
-inputTextArea.addEventListener("input", () => {
+userTextArea.addEventListener("input", () => {
   //Counts number of characters
     charCount.textContent = userTextArea.value.length;
 
