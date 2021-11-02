@@ -21,5 +21,7 @@ https://javascript.info/
 # Additional Information
 
 Course: CISC 3140
+
 School: Brooklyn College
+
 Year: Fall 2021
