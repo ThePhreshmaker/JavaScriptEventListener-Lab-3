@@ -17,3 +17,9 @@ NOTE: This project is not dependant on any tools that need to be downloaded. Thi
 https://codingartistweb.com/category/js/javascript-projects/
 https://www.youtube.com/watch?v=unm0BLor8aE&t=72s 
 https://javascript.info/
+
+# Additional Information
+
+Course: CISC 3140
+School: Brooklyn College
+Year: Fall 2021
