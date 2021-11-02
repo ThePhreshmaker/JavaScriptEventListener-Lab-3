@@ -11,3 +11,9 @@ NOTE: This is an offline project
 From the repository, click on the green "Code" button and download a zip file (or use the other options) and unzip the contents into a directory of your choice on your computer. ENSURE THAT ALL CONTENTS ARE IN THE SAME LOCATION. Open the HTML file in the browser of your choice. Input text into the appropriate field and you are all set!
 
 NOTE: This project is not dependant on any tools that need to be downloaded. This project should work in Windows, Mac-OS, and UNIX-like enviornments.
+
+
+# Resources
+https://codingartistweb.com/category/js/javascript-projects/
+https://www.youtube.com/watch?v=unm0BLor8aE&t=72s 
+https://javascript.info/
