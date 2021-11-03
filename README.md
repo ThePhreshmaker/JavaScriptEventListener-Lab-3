@@ -12,6 +12,10 @@ From the repository, click on the green "Code" button and download a zip file (o
 
 NOTE: This project is not dependant on any tools that need to be downloaded. This project should work in Windows, Mac-OS, and UNIX-like enviornments.
 
+# Sample Output using Lorem Ipsum
+
+![image](https://user-images.githubusercontent.com/89462917/140064647-28631b65-5342-4080-a529-3ec740ed0553.png)
+
 
 # Resources
 https://codingartistweb.com/category/js/javascript-projects/
