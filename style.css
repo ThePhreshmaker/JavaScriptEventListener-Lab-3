@@ -1,9 +1,15 @@
+/*
+    CSS style sheet to style HTML Document
+    Lab 3.3 CISC 3140 Brooklyn College
+    Author: Shawn P
+*/
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 header {
     color: #ffffff;
     text-align: center;

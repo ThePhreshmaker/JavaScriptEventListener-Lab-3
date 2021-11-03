@@ -1,3 +1,7 @@
+<!-- HTML Document that will create a webpage with a heading, input text box, and a Word & Character Counter -->
+<!-- Will use CSS to add styling elements to HTML document and JavaScript Event listener to implement counters -->
+<!-- Lab 3.3 CISC 3140 Brooklyn College-->
+<!-- Author: Shawn P-->
 <!DOCTYPE html>
 <header>
     <h1>Live Word & Character Counter</h1>
@@ -6,20 +10,21 @@
     <p>Brooklyn College</p>
 </header>
 <html lang = "en">
-  <head>
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+<head>
+    <!-- viewport element gives the browser instructions on how to control the page's dimensions and scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!--Google Font-->
-    <link
-          href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-          rel = "stylesheet"
-    />
-    <!--CSS Styling-->
-    <link rel = "stylesheet" href ="style.css" />
-  </head>
+
+    <!-- Use Google Fonts API for font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+          rel="stylesheet" />
+    <!-- CSS Styling to improve look of HTML document -->
+    <link rel="stylesheet" href="style.css" />
+</head>
   <body>
     <div class = "wrapper">
       <div class = "container">
+          <!-- This will be area where user will input text -->
         <textarea
            id = "user-textarea"
            rows="12"
@@ -28,10 +33,12 @@
       </div>
       <div class="count">
         <div>
+            <!-- Word Counter -->
           <h5 id = "word-count">0</h5>
           <p>Words</p>
         </div>
         <div>
+            <!-- Character Counter -->
           <h5 id = "char-count">0</h5>
           <p>Characters</p>
           <p>(Including Whitespaces)</p>
